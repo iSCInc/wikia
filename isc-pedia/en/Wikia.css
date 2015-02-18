@@ -1,0 +1,326 @@
+/* iSC Inc. Skin 0.1 */
+/* Created by User:Suriyaa iSC. Usage only for iSC Pedia 3.0! */
+ 
+/*-----------------------------------------------------------------------------
+Hello Editors,
+please add new sections below the site!
+The section must be writen in CAPITAL LETTERS,<br>Subheads normal letters.
+Thank you!
+-----------------------------------------------------------------------------*/
+ 
+/* Content */
+/* FONT                          *//* -- Complete */
+/* BODY                          *//* --- unready */
+/* BACKGROUND                    *//* --- unready */
+/* USERNAME                      *//* --- unready */
+/* MODULES                       *//* --- unready */
+/* BUTTONS                       *//* --- unready */
+/* AVATARS                       *//* --- unready */
+/* SEARCH                        *//* --- unready */
+/* CHAT                          *//* --- unready */
+/* DROPDOWNMENU                  *//* --- unready */
+/* DISPLAYCLOCK                  *//* --- unready */
+/* INTERWIKI FOOTER              *//* --- unready */
+ 
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+                                START
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+ 
+/* FONT */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+ 
+/* BODY */
+body { font-family: 'Droid Sans', sans-serif; }
+ 
+/* BACKGROUND */
+background: transparent url("http://");
+ 
+/* USERNAME */
+/*Alphabetized*/
+/* Bots */
+a[href="/wiki/Benutzer:A_bot"],
+a[href="/wiki/Benutzer:CreateWiki script"],
+a[href="/wiki/Benutzer:Delete page script"],
+a[href="/wiki/Benutzer:Edit page script"],
+a[href="/wiki/Benutzer:Maintenance script"],
+a[href="/wiki/Benutzer:VSTF Bot"],
+a[href="/wiki/Benutzer:Wikia"],
+a[href="/wiki/Benutzer:WikiaBot"] { color:#66AAFF !important; font-weight:bold !important; }
+ 
+/* Sysops */
+a[href="/wiki/Benutzer:Suriyaa_iSC"] { color:darkblue !important; font-weight:bold !important; }
+ 
+/* Bureaucrats */
+a[href="/wiki/Benutzer:Suriyaa_iSC"] { color:#9C661F !important; font-weight:bold !important; }
+ 
+/* Helpers */
+a[href="/wiki/Benutzer:2Actimv"] { color:#7099C2 !important; font-weight:bold !important; }
+ 
+/* Vstf */
+a[href="/wiki/Benutzer:Deltaneos"],
+a[href="/wiki/Benutzer:Eulalia459678"],
+a[href="/wiki/Benutzer:Nifky"],
+a[href="/wiki/Benutzer:Randomtime"],
+a[href="/wiki/Benutzer:Rappy_4187"],
+a[href="/wiki/Benutzer:Sactage"],
+a[href="/wiki/Benutzer:Sulfur"],
+a[href="/wiki/Benutzer:VegaDark"] { color: #008000 !important; font-weight:bold !important; }
+ 
+/* MODULES */
+ 
+/* BUTTONS */
+ 
+/* TABS */
+ 
+/* AVATARS */
+#UserProfileMasthead .masthead-avatar img, #AccountNavigation .avatar, .ChatModule .chat-whos-here .avatar, .WikiaBlogListing .avatar, .Wall .avatar {
+ border-width: 0;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+}
+ 
+/* SEARCH */
+/* Search Box Image */
+.WikiaSearch input[type="text"] { 
+  background: #E0E01B
+  url("http://img3.wikia.nocookie.net/__cb20140730065707/en-isc-pedia/images/3/31/ISC_Pedia_-_SearchBox.jpg") no-repeat right center !important;
+  }
+ 
+/* Configurations */
+#WikiaSearch {
+ padding: 5px;
+ background-color: #f9f9f9;
+ border: 1px solid #ccc; 
+ -webkit-border-radius: 3px; 
+ -moz-border-radius: 3px;
+ border-radius: 3px; 
+}
+ 
+#WikiaSearch input[type="text"] {
+ float: left;
+ position: absolute;
+ font-family: 'Roboto', sans-serif;
+ color: #333;
+}
+ 
+#WikiaSearch .wikia-button {
+ overflow: visible;
+ position: relative;
+ float: right;
+ padding: 0;
+ border: 1px solid #EDB130;
+ background-image: none;
+ background: #EDED30;
+ background: -webkit-gradient(linear,left top,left bottom,from(#EDED30),to(#EDD430));
+ background: -webkit-linear-gradient(top,#EDED30,#EDD430);
+ background: -moz-linear-gradient(top,#EDED30,#EDD430);
+ background: -ms-linear-gradient(top,#EDED30,#EDD430);
+ background: -o-linear-gradient(top,#EDED30,#EDD430);
+ background: linear-gradient(top,#EDED30,#EDD430);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#EDED30',EndColorStr='#EDD430');
+}
+ 
+#WikiaSearch .wikia-button:hover {
+ border-color: #2f5bb7;
+ -webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 1px 0;
+ -moz-box-shadow: rgba(0,0,0,0.2) 0 1px 1px 0;
+ box-shadow: rgba(0,0,0,0.2) 0 1px 1px 0;
+ background: #EDD430;
+ background: -webkit-gradient(linear,left top,left bottom,from(#EDED30),to(#EDD430));
+ background: -webkit-linear-gradient(top,#EDED30,#EDD430);
+ background: -moz-linear-gradient(top,#EDED30,#EDD430);
+ background: -ms-linear-gradient(top,#EDED30,#EDD430);
+ background: -o-linear-gradient(top,#EDED30,#EDD430);
+ background: linear-gradient(top,#EDED30,#EDD430);
+}
+ 
+#WikiaSearch .wikia-button:active {
+ -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px 0 inset;
+ -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px 0 inset;
+ box-shadow: rgba(0,0,0,0.3) 0 1px 2px 0 inset;
+}
+ 
+#WikiaSearchHeader #WikiaSearch { margin-top: -10px; }
+ 
+.WikiaSearch input[type="text"] {
+  background-color: #ffffff; 
+  background-image: -moz-linear-gradient(top, #ededed 0%, #ffffff 40%); 
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ededed), color-stop(40%, #ffffff)); 
+  transition: border 0.5s;
+  -moz-transition: border 0.5s; /* Firefox 4 */
+  -webkit-transition: border 0.5s; /* Safari and Chrome */
+  -o-transition: border 0.5s; /* Opera */
+}
+ 
+.WikiaSearch input[type="text"]:hover { 
+ border: 1px #E6DE00 solid; 
+ box-shadow: 0 0 2px #E6DE00;
+ -webkit-box-shadow: 0 0 2px #E6DE00; 
+ -moz-box-shadow: 0 0 2px #E6DE00; 
+}
+ 
+/* CHAT */
+.ChatModule .chat-whos-here, .ChatModule .chat-whos-here .arrow-left img, .ChatModule .chat-whos-here .arrow-right img { 
+ border-width: 0; 
+}
+ 
+.ChatModule .chat-whos-here .arrow-left { background: url(http://images3.wikia.nocookie.net/codyn329/images/9/97/LeftArrow.png); margin-left: -15px; }
+.ChatModule .chat-whos-here .arrow-left:hover { background: url(http://images3.wikia.nocookie.net/codyn329/images/c/cb/LeftArrowHover.png); }
+.ChatModule .chat-whos-here .arrow-left:active { background: url(http://images1.wikia.nocookie.net/codyn329/images/3/36/LeftArrowActive.png); }
+ 
+.ChatModule .chat-whos-here .arrow-right { background: url(http://images1.wikia.nocookie.net/codyn329/images/c/cc/RightArrow.png); margin-right: -25px; }
+.ChatModule .chat-whos-here .arrow-right:hover { background: url(http://images1.wikia.nocookie.net/codyn329/images/c/c5/RightArrowHover.png); }
+.ChatModule .chat-whos-here .arrow-right:active { background: url(http://images3.wikia.nocookie.net/codyn329/images/0/04/RightArrowActive.png); }
+ 
+.ChatModule .chat-whos-here .arrow-left, .ChatModule .chat-whos-here .arrow-right, .ChatModule .chat-whos-here .arrow-left:hover, .ChatModule .chat-whos-here .arrow-right:hover  { 
+ height: 46px; 
+ width: 23px; 
+ margin-top: -5px; 
+ background-repeat: no-repeat;
+}
+ 
+/* DROPDOWNMENU */
+/* __NOWYSIWYG__ <source lang="css"> */
+.custom-dropdown {
+     padding: 1px 8px;
+}
+.custom-dropdown > :first-child:after {
+     background-image: url("data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D");
+     border-color: white transparent transparent;
+     border-style: solid;
+     border-width: 4px;
+     content: "";
+     display: inline-block;
+     height: 1px;
+     margin-left: 4px;
+     margin-top: 2px;
+     position: relative;
+     vertical-align: middle;
+     width: 1px;
+}
+.custom-dropdown:hover {
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     margin-bottom: -1px;
+     padding-bottom: 2px;
+}
+.custom-dropdown ul {
+     list-style: none outside none;
+     min-width: 100%;
+     top: 23px;
+}
+.custom-dropdown:hover ul {
+     display: block;
+}
+.custom-dropdown li a {
+     font-size: 12px;
+     height: 14px;
+     line-height: 14px;
+}
+/* </source> */
+ 
+/* DISPLAYCLOCK */
+/* Changes the color of the text */
+#DisplayClockJS { color: red !important }
+/* Use a Monospace font */
+#DisplayClockJS { font-family: 'Lucida Console', monospace }
+ 
+/* INTERWIKI FOOTER */
+/* Interlanguage link footer from German Community Central */
+.mainpage .WikiaArticleInterlang h3,
+.mw-special-Contact div.WikiaArticleInterlang h3,
+.mw-special-Forum div.WikiaArticleInterlang h3
+{
+    font-size: 18px;
+    height: 55px;
+    margin-left: 90px;
+    font-weight: bolder;
+}
+ 
+.mainpage .WikiaArticleInterlang h3,
+.mw-special-Forum div.WikiaArticleInterlang h3
+{
+    padding-top: 20px
+}
+ 
+.mw-special-Contact div.WikiaArticleInterlang h3
+{
+    padding-top: 11px
+}
+ 
+div.WikiaArticleInterlang
+{
+    display:none
+}
+ 
+.mw-special-Contact div.WikiaArticleInterlang, 
+.mw-special-Forum div.WikiaArticleInterlang 
+{
+    display:block;
+}
+ 
+.mainpage .WikiaArticleInterlang, 
+.mw-special-Contact div.WikiaArticleInterlang,
+.mw-special-Forum div.WikiaArticleInterlang
+{
+    background-color: white;
+    background-image: url(''), -moz-linear-gradient(top, rgba(242,242,242,0) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
+    background-image: url(''), -webkit-linear-gradient(top, rgba(242,242,242,0) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
+    background-image: url(''), -o-linear-gradient(top, rgba(242,242,242,0) 0%,rgba(242,242,242,1) 100%); /* Opera 11.10+ */
+    background-image: url(''), -ms-linear-gradient(top, rgba(242,242,242,0) 0%,rgba(242,242,242,1) 100%); /* IE10+ */
+    background-image: url(''), linear-gradient(to bottom, rgba(242,242,242,0) 0%,rgba(242,242,242,1) 100%); /* W3C */
+    background-repeat: no-repeat;
+    background-position: 10px, 0;
+    border: 1px solid #D9D9D9;
+    height: 60px;
+    margin: 0;
+    margin-top: 10px
+}
+ 
+.mw-special-Forum #forum-display
+{
+    clear: both;
+    margin: 0 10px;
+}
+ 
+.mw-special-Forum #mw-content-text {
+    margin-bottom: 15px;
+}
+ 
+.mainpage .WikiaArticleInterlang ul,
+.mw-special-Forum div.WikiaArticleInterlang ul
+{
+    font-size:14px;
+    padding-top:24px;
+}
+ 
+.mw-special-Contact div.WikiaArticleInterlang ul
+{
+    font-size:14px;
+    padding-top:16px;
+} 
+ 
+.mainpage .WikiaArticleInterlang ul li:first-child,
+.mw-special-Contact div.WikiaArticleInterlang ul li:first-child,
+.mw-special-Forum div.WikiaArticleInterlang ul li:first-child
+{
+    padding-left:10px;
+}
+ 
+ 
+/*-----------------------------------------------------------------------------
+                                END
+-----------------------------------------------------------------------------*/
+
+Letzte Aktivitäten
+
+    ISC Pedia:Main Page
+    bearbeitet von Suriyaa iSC
+
+Zeige mehr >	
+Live-Chat
+
+iSC Pedia 3.0
