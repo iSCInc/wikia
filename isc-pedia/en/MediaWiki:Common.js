@@ -7,7 +7,7 @@ importArticles({
     type: 'script',
     articles: [
         'MediaWiki:Onlyifuploading.js',               // Only if uploading
-	      'u:dev:DisplayClock/code.js',                 // Display Clock
+	'u:dev:DisplayClock/code.js',                 // Display Clock
         'u:dev:ReferencePopups/code.js',              // Reference Popups
         'w:dev:WallGreetingButton/code.js',           // Wall Greeting Button
         'u:dev:Countdown/code.js',                    // Countdown
@@ -21,7 +21,7 @@ importArticles({
         'u:dev:Printer/code.js',                      // Print Function
         'u:dev:TopEditors/code.js',                   // Top Editors
         'u:dev:Translator/Translator.js',             // Translate Function
-	      'u:dev:SignatureCheck/code.js',               // Signature Check
+	'u:dev:SignatureCheck/code.js',               // Signature Check
         'u:dev:ExternalImageLoader/code.js',          // External Image Loader
         'u:dev:AjaxRC/code.js',                       // Recent Changes Watchlist
         'u:dev:PurgeButton/code.js',                  // Purge Button
