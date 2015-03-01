@@ -1,0 +1,27 @@
+/* <source lang="css"> */
+
+/* Main CSS class of the tooltip */
+.main-tooltip {
+    border: 1px solid #999;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    background-color: #EEE;
+}
+
+/* Adds padding to the wrapper to make space for a shadow */
+#tooltip-wrapper {
+    padding: 3px 7px 2px 3px;
+}
+
+/* Hides tooltips with redlinks, not yet loaded ones and elements containing tooltip contents for advanced tooltips */
+.has-redlinks, .tooltip-loading, .advanced-tooltip .tooltip-contents {
+    display: none;
+}
+
+.tooltips-init-complete {
+    cursor: help;
+}
+
+/* </source> */
